@@ -1,0 +1,17 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "A proxy server using Hono and Cloudflare Workers",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^3.11.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "wrangler": "^3.22.1"
+  }
+}
